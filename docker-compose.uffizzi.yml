@@ -37,7 +37,7 @@ services:
       # UI: https://docs.flagsmith.com/deployment/locally-frontend#environment-variables
 
       DJANGO_ALLOWED_HOSTS: '*' # Change this in production
-      DATABASE_URL: postgresql://postgres:password@localhost:5432/flagsmith
+      DATABASE_URL: postgresql://postgres:password@postgres:5432/flagsmith
       DISABLE_ANALYTICS_FEATURES: 'true' # set to false to enable InfluxDB
       PREVENT_SIGNUP: 'false'
       ENABLE_ADMIN_ACCESS_USER_PASS: 'true'
